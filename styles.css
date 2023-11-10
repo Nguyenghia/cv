@@ -1,60 +1,80 @@
-html *{
-    font-family: sans-serif;
-}
 body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
-}
-
-header {
-    background-color: #A6CCD3;  
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    background-color: #000000;
     color: #fff;
-    text-align: center;
-    padding: 20px;
-    font-size: large;
-}
-title{
-    text-align: center;
-    text-size-adjust: 1000px;
-}
-.profile{
-    padding-left: 30px;
-    position:absolute;
-    right: 8%;
-    top:25%;
-    border-left-style:solid ;
+  }
+  
+  .personal-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .personal-info img {
+    border-radius: 50%;
+    max-width: 30%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .personal-info div {
     text-align: left;
-}
-.profile img {
-    padding-left: 50px;
-    width: 150px;
-    border-radius: 100%;
-}
-
-header h1 {
-    margin: 10px 0;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: white;
-}
-footer {
-    text-align: center;
-    background-color: gray;
+  }
+  
+  .personal-info h1 {
+    font-size: 3vw;
     color: #fff;
-    padding: 10px;
-}
-h2{
-    color: #BE3228;
-    font-family: "Helvetica Neue";
-}
-
-#bio {
-    font-size: 100%;
-    color: #BE3228;
-}
+    margin-bottom: 5px;
+  }
+  
+  .personal-info p {
+    font-size: 2vw;
+    color: #ecf0f1;
+    margin: 0;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+  }
+  
+  .left-section,
+  .right-section {
+    width: 48%;
+  }
+  
+  .title {
+    font-size: 3vw;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+  }
+  
+  .content {
+    font-size: 2vw;
+    line-height: 1.6;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 5%;
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
